@@ -88,6 +88,7 @@ main.open {
   top: 0;
   left: 0;
   padding-right: 2rem;
+  -webkit-backdrop-filter: blur(48px);
 }
 
 .side-menu-button {
@@ -322,7 +323,7 @@ main.open {
   opacity: 50%;
   color: var(--text-Caption-Color);
   font-size: 50px;
-  top: 50%;
+  top: 40%;
   height: fit-content;
   position: relative;
   filter: blur(1.5px);
@@ -334,7 +335,7 @@ main.open {
 
 .internal-links {
   position: absolute;
-  bottom: 0;
+  bottom: 10%;
   width: 80vw;
   max-width: 300px;
   display: flex;
@@ -947,6 +948,10 @@ footer {
 
   .caption {
     font-size: 22px;
+  }
+
+  .internal-links {
+    bottom: 0%;
   }
 
   .aboutWrapper {
