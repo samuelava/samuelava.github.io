@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maria Avatare portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+  <header>
+    <nav class="navbar">
+      <a href="#home">
+        <img class="logo" src="logo.svg" alt="logo">
+      </a>
+      <div class="button-open" id="side-menu-button">
+        <button class="side-menu-button">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </button>
+      </div>
+    </nav>
+    <div class="side-panel" id="side-panel">
+      <div class="button-close">
+        <div class="button-close-inner" id="close-button">
+          <button class="side-menu-button close-button" id="close-button">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </button>
+        </div>
+      </div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <hr class="menu-divider">
+        <li><a href="#pictures" id="close-button">Pictures</a></li>
+        <li><a href="#about" id="close-button">About me</a></li>
+        <li><a href="#portfolio" id="close-button">Portfolio</a></li>
+        <li><a href="#contact" id="close-button">Contact</a></li>
+        <hr class="menu-divider">
+      </ul>
+      <img class="menu-logo" src="logo.svg" alt="logo">
+    </div>
+  </header>
+<body>
+<main>
+    <div class="mainWrapper">
+      <video class="background-video" id="home" autoplay muted loop poster="video_fallback.jpg">
+        <source src="Maruka4.mp4" type="video/mp4">
+      </video>
+      <div class="content">
+        <h1 class="title">Maria Avatare</h1>
+        <div class="internal-links">
+          <a class="rounded-link" href="#about">
+            <p class="link link-underline op-50">About me</p>
+          </a>
+          <a class="rounded-link" href="#portfolio">
+            <p class="link link-underline op-50">Portfolio</p>
+          </a>
+          <a class="rounded-link" href="#contact">
+            <p class="link link-underline op-50">Contact</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  
+   
+    <!-- ====================================     Picture player     ==================================== -->
+ 
+
+    <div class="picture-player-sec main-content" id="pictures">
+      <h1 class="sec-caption">Pictures</h1>
+      <div class="picture-center">
+        <div class="pictureWrapper shadow">
+          <div class="picture-player">
+            <div class="pictures">
+                <div>
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="PicturePlayerIMG1_848x606.JPG"/> 
+                    
+                    <source media="(min-width: 992px)" srcset="PicturePlayerIMG1_640x640.JPG"/>
+
+                    <source media="(min-width: 600px)" srcset="PicturePlayerIMG1_500x625.JPG"/> 
+
+                    <img src="PicturePlayerIMG1_330x587.JPG" alt="Monotone photo of Maria Avatare">
+                  </picture>
+                </div>
+                <div>
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="PicturePlayerIMG2_848x606.JPG" />
+
+                    <source media="(min-width: 992px)" srcset="PicturePlayerIMG2_640x640.JPG" />
+
+                    <source media="(min-width: 600px)" srcset="PicturePlayerIMG2_500x625.JPG" />
+
+                    <img src="PicturePlayerIMG2_330x587.JPG" alt="Photo of Maria Avatare under red cloth">
+                  </picture>
+                </div>
+                <div>
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="PicturePlayerIMG3_848x606.JPG" />
+
+                    <source media="(min-width: 992px)" srcset="PicturePlayerIMG3_640x640.JPG"/>
+
+                    <source media="(min-width: 600px)" srcset="PicturePlayerIMG3_500x625.JPG" />
+
+                    <img src="PicturePlayerIMG3_330x587.JPG" alt="Photo of Maria Avatare in a suit">
+                  </picture>
+                </div>
+                <div>
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="PicturePlayerIMG4_848x606.JPG" />
+
+                    <source media="(min-width: 769px)" srcset="PicturePlayerIMG4_640x640.JPG" />
+
+                    <source media="(min-width: 600px)" srcset="PicturePlayerIMG4_500x625.JPG" />
+
+                    <img src="PicturePlayerIMG4_330x587.JPG" alt="Maria Avatare posing">
+                  </picture>
+                </div>
+                <div>
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="PicturePlayerIMG5_848x606.JPG" />
+
+                    <source media="(min-width: 769px)" srcset="PicturePlayerIMG5_640x640.JPG" />
+
+                    <source media="(min-width: 600px)" srcset="PicturePlayerIMG5_500x625.JPG" />
+    
+                    <img src="PicturePlayerIMG5_330x587.JPG" alt="Monotone photo of Maria Avatare posing">
+                  </picture>
+                </div>
+            </div>
+            <button class="arrow left">
+              <p>&#8249;</p>
+            </button>
+            <button class="arrow right">
+              <p>&#8250;</p>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  
+    <!-- ====================================          About         ==================================== -->
+ 
+    <section id="about"></section>
+    <div class="about-me-sec main-content">
+      <h1 class="sec-caption">About me</h1>
+      <div class="aboutWrapper">
+
+        <div class="about-top-sec" id="pic-1">
+          <picture>
+            <source media="(min-width: 992px)" srcset="IMG2_360x360.JPG" />                          <!-- 360x360 -->
+
+            <source media="(min-width: 600px)" srcset="IMG2_240x240.JPG" />                          <!-- 240x240 -->
+
+            <img src="IMG2_160x160.JPG" alt="Portrait of Maria Avatare" class="shadow aboutImages"/> <!-- 160x160 -->
+          </picture>
+        </div>
+        <div class="about-text" id="txt-1">
+          <h2 class="caption">Caption</h2>
+          <p class="text" id="about-p-top">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Alias voluptas nam nisi animi. Saepe reprehenderit dolore 
+            placeat distinctio ea quae quia
+          </p>
+        </div>
+        
+
+        <div class="about-text" id="txt-2">
+          <h3 class="small-caption">Small caption</h3>
+          <p class="text" id="about-p-middle">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Beatae neque delectus magnam molestiae expedita, explicabo
+            tenetur repellendus a, itaque minima perferendis voluptatibus
+            maxime possimus ab. Iusto voluptas dolorem pariatur expedita?
+          </p>
+        </div>
+    
+        <div class="about-middle-sec" id="pic-2">
+          <picture>
+            <source media="(min-width: 992px)" srcset="IMG3_360x360.JPG"/>                                        <!-- 360x360 -->
+
+            <source media="(min-width: 600px)" srcset="IMG3_240x240.JPG"/>                                        <!-- 240x240 -->
+
+            <img src="IMG3_160x160.JPG" alt="Monotone photo of Maria Avatare posing" class="shadow aboutImages"/> <!-- 160x160 -->
+          </picture>
+        </div>
+        <div class="about-bottom-sec" id="pic-3">
+          <picture> 
+            <source media="(min-width: 992px)" srcset="IMG5_360x360.JPG"/>                                 <!-- 360x360 -->
+
+            <source media="(min-width: 600px)" srcset="IMG5_240x240.JPG"/>                                 <!-- 240x240 -->
+
+            <img src="IMG5_160x160.JPG" alt="Monotone photo of Maria Avatare" class="shadow aboutImages"/> <!-- 160x160 -->
+          </picture>
+        </div>
+    
+
+        <div class="about-text" id="txt-3">
+          <h3 class="small-caption">Small caption</h3>
+          <p class="text" id="about-p-bottom">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Beatae neque delectus magnam molestiae expedita, explicabo
+            tenetur repellendus a, itaque minima perferendis voluptatibus
+            maxime possimus ab. Iusto voluptas dolorem pariatur expedita?
+          </p>
+        </div>
+      </div>
+    </div>
+
+  
+    <!-- ====================================        portfolio       ==================================== -->
+    
+
+    <section id="portfolio"></section>
+
+    <div class="project-container">
+      <div class="projects-sec main-content">
+        <h1 class="sec-caption">Projects</h1>
+        <div class="project-boxes">
+
+          <div class="picture-box shadow" id="pic-box1">
+            <a href="project1.html">
+              <picture>
+                <source media="(min-width: 600px)" srcset="IMG1_311x311.JPG"/>              <!-- 311x311 -->
+
+                <img src="IMG1_260x260.JPG" alt="Picture of project" class="project-pic"/>  <!-- 260x260 -->
+              </picture>
+            </a>
+              <div class="pictures-text">
+                <h2 class="caption"><a href="project1.html" class="link link-underline">Text &#8250;</a></h2>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+          </div>
+
+          <div class="picture-box shadow" id="pic-box2">
+              <a href="project2.html">
+                <picture>
+                  <source media="(min-width: 600px)" srcset="IMG6_311x311.JPG"/>              <!-- 311x311 -->
+
+                  <img src="IMG6_260x260.JPG" alt="Picture of project" class="project-pic"/>  <!-- 260x260 -->
+                </picture>
+              </a>
+            <div class="pictures-text">
+              <h2 class="caption"><a href="project2.html" class="link link-underline">Text &#8250;</a></h2>
+              <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+          </div>
+
+          <div class="picture-box shadow" id="pic-box3">
+              <a href="project3.html">
+                <picture>
+                  <source media="(min-width: 600px)" srcset="IMG4_311x311.JPG"  />            <!-- 311x311 -->
+
+                  <img src="IMG4_260x260.JPG" alt="Picture of project" class="project-pic"/>  <!-- 260x260 -->
+                </picture>
+              </a>
+                <div class="pictures-text">
+                <h2 class="caption"><a href="project3.html" class="link link-underline">Text &#8250;</a></h2>
+                  <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+          </div>
+
+          <div class="picture-box shadow" id="pic-box4">
+            <a href="project4.html">
+              <picture>
+                <source media="(min-width: 600px)" srcset="IMG7_311x311.JPG"/>                <!-- 311x311 -->
+  
+                <img src="IMG7_260x260.JPG" alt="Picture of project" class="project-pic"/>    <!-- 260x260 -->
+              </picture>
+            </a>
+              <div class="pictures-text">
+              <h2 class="caption"><a href="project4.html" class="link link-underline">Text &#8250;</a></h2>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="box-decoration" id="box-decoration-left"></div>
+      <div class="box-decoration" id="box-decoration-right"></div>
+    </div>
+
+    
+    <!-- ====================================         Contact        ==================================== -->
+    
+  </main>
+    <section id="contact"></section>
+    <div class="bg-accent"></div>
+    <hr class="footer-divider"></hr>
+    <footer>
+      <section class="logoWrapper d-flex">
+        <img class="footer-logo" src="logo.svg" alt="logo">
+        <section class="company-logos">
+          <div class="external-link">
+            <img src="logo-instagram.svg" alt="instagram logo" onclick="alert('stanna här för nuet');">
+          </div>
+          <div class="external-link">
+            <img src="logo-linkedin.svg" alt="linkedin logo" onclick="alert('stanna här för nuet');">
+          </div>
+          <div class="external-link">
+            <img src="logo-youtube.svg" alt="youtube logo" onclick="alert('stanna här för nuet');">
+          </div>
+        </section>
+      </section>
+      <div class="contact-area">
+        <h2 class="caption">Contact information</h2>
+        <p class="small-caption small-icon"><img src="Mail.png" alt="mail icon">example@gmail.com</p>
+        <p class="small-caption small-icon"><img src="Phone.png" alt="phone icon" class="small-icon">070-123 45 67</p>
+      </div>
+      <div class="copyright">
+        <p class="text">© <script>document.write(new Date().getFullYear());</script> Maria Avatare. All rights reserved.</p>
+
+      </div>
+    </footer>
+  <script src="script.js"></script>
+  <script src="animationScript.js"></script>
+</body>
+</html>
