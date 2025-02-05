@@ -822,6 +822,7 @@ footer {
     max-width: 65vw;
     width: 500px;
     font-size: 18px;
+    bottom: 0%;
   }
 
   #about-p-middle {
@@ -948,10 +949,6 @@ footer {
 
   .caption {
     font-size: 22px;
-  }
-
-  .internal-links {
-    bottom: 0%;
   }
 
   .aboutWrapper {
